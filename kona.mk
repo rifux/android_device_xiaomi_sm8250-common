@@ -520,6 +520,12 @@ PRODUCT_COPY_FILES += \
 # Signing
 include vendor/lineage-priv/keys/keys.mk
 
+# Wi-Fi Display
+PRODUCT_PACKAGES += \
+    libnl \
+    libpng.vendor \
+    libwfdaac_vendor \
+    vendor.qti.hardware.display.config-V5-ndk
 
 # Inherit the proprietary files
 $(call inherit-product, vendor/xiaomi/sm8250-common/sm8250-common-vendor.mk)
