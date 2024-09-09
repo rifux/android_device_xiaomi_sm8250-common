@@ -152,6 +152,7 @@ PRODUCT_PACKAGES += \
 
 # Camera
 PRODUCT_PACKAGES += \
+    libutilscallstack.vendor
     android.hardware.camera.provider@2.4-impl \
     android.hardware.camera.provider@2.4-service_64
 
@@ -523,9 +524,6 @@ PRODUCT_COPY_FILES += \
 # Signing
 include vendor/lineage-priv/keys/keys.mk
 
-# QPR3 Camera FIX
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/rootdir/vendor/lib64/libutilscallstack.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libutilscallstack.so \
 
 # Inherit the proprietary files
 $(call inherit-product, vendor/xiaomi/sm8250-common/sm8250-common-vendor.mk)
