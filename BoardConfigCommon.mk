@@ -193,12 +193,8 @@ endif
 # Security patch level
 VENDOR_SECURITY_PATCH := 2024-02-01
 
-# Sepolicy
-include device/qcom/sepolicy_vndr/SEPolicy.mk
-SYSTEM_EXT_PRIVATE_SEPOLICY_DIRS += $(COMMON_PATH)/sepolicy/private
-SYSTEM_EXT_PUBLIC_SEPOLICY_DIRS += $(COMMON_PATH)/sepolicy/public
-BOARD_VENDOR_SEPOLICY_DIRS += $(COMMON_PATH)/sepolicy/vendor
-BUILD_BROKEN_VENDOR_PROPERTY_NAMESPACE := true
+# SEPolicy
+-include device/xiaomi/pipa/sepolicy/pipa-sepolicy.mk
 
 # Verified Boot
 BOARD_AVB_ENABLE := true

@@ -1,0 +1,2 @@
+# Allow audioserver to r/w to sound_device
+allow audioserver sound_device:chr_file rw_file_perms;

@@ -1,0 +1,8 @@
+# Audio Socket
+/dev/socket/audio_hw_socket                  u:object_r:audio_socket:s0
+
+# Ultrasound Device
+/dev/elliptic(.*)?                           u:object_r:sound_device:s0
+
+# XLOG Device
+/dev/xlog                                    u:object_r:sound_device:s0
