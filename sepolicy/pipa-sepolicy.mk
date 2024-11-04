@@ -14,29 +14,29 @@
 
 # QCOM Sepolicy
 BOARD_VENDOR_SEPOLICY_DIRS += \
-    device/xiaomi/pipa/sepolicy/vendor/qcom
+    device/xiaomi/sm8250-common/sepolicy/vendor/qcom
 
 # Xiaomi Sepolicy
 SYSTEM_EXT_PRIVATE_SEPOLICY_DIRS += \
-    device/xiaomi/pipa/sepolicy/private/xiaomi/devicesettings \
-    device/xiaomi/pipa/sepolicy/private/xiaomi/display
+    device/xiaomi/sm8250-common/sepolicy/private/xiaomi/devicesettings \
+    device/xiaomi/sm8250-common/sepolicy/private/xiaomi/display
 
 SYSTEM_EXT_PUBLIC_SEPOLICY_DIRS += \
-    device/xiaomi/pipa/sepolicy/public/xiaomi/devicesettings \
-    device/xiaomi/pipa/sepolicy/public/xiaomi/touchfeature
+    device/xiaomi/sm8250-common/sepolicy/public/xiaomi/devicesettings \
+    device/xiaomi/sm8250-common/sepolicy/public/xiaomi/touchfeature
 
 BOARD_VENDOR_SEPOLICY_DIRS += \
-    device/xiaomi/pipa/sepolicy/vendor/xiaomi/audio \
-    device/xiaomi/pipa/sepolicy/vendor/xiaomi/battery \
-    device/xiaomi/pipa/sepolicy/vendor/xiaomi/bluetooth \
-    device/xiaomi/pipa/sepolicy/vendor/xiaomi/camera \
-    device/xiaomi/pipa/sepolicy/vendor/xiaomi/dolby \
-    device/xiaomi/pipa/sepolicy/vendor/xiaomi/modem \
-    device/xiaomi/pipa/sepolicy/vendor/xiaomi/power_supply \
-    device/xiaomi/pipa/sepolicy/vendor/xiaomi/sensors \
-    device/xiaomi/pipa/sepolicy/vendor/xiaomi/thermald \
-    device/xiaomi/pipa/sepolicy/vendor/xiaomi/touch \
-    device/xiaomi/pipa/sepolicy/vendor/xiaomi/touchfeature \
-    device/xiaomi/pipa/sepolicy/vendor/xiaomi/usb \
-    device/xiaomi/pipa/sepolicy/vendor/xiaomi/wireless \
-    device/xiaomi/pipa/sepolicy/vendor/xiaomi/wlan
+    device/xiaomi/sm8250-common/sepolicy/vendor/xiaomi/audio \
+    device/xiaomi/sm8250-common/sepolicy/vendor/xiaomi/battery \
+    device/xiaomi/sm8250-common/sepolicy/vendor/xiaomi/bluetooth \
+    device/xiaomi/sm8250-common/sepolicy/vendor/xiaomi/camera \
+    device/xiaomi/sm8250-common/sepolicy/vendor/xiaomi/dolby \
+    device/xiaomi/sm8250-common/sepolicy/vendor/xiaomi/modem \
+    device/xiaomi/sm8250-common/sepolicy/vendor/xiaomi/power_supply \
+    device/xiaomi/sm8250-common/sepolicy/vendor/xiaomi/sensors \
+    device/xiaomi/sm8250-common/sepolicy/vendor/xiaomi/thermald \
+    device/xiaomi/sm8250-common/sepolicy/vendor/xiaomi/touch \
+    device/xiaomi/sm8250-common/sepolicy/vendor/xiaomi/touchfeature \
+    device/xiaomi/sm8250-common/sepolicy/vendor/xiaomi/usb \
+    device/xiaomi/sm8250-common/sepolicy/vendor/xiaomi/wireless \
+    device/xiaomi/sm8250-common/sepolicy/vendor/xiaomi/wlan
